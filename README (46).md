@@ -1,0 +1,455 @@
+<!--
+
+author:   André Dietrich
+email:    masub.makhdoom@ovgu.de
+date:     29/03/2025
+version:  30.0.0
+language: en
+narrator: UK English Female
+
+repository: https://github.com/LiaScript/docs
+
+logo:     img/logo.png
+
+comment:  This document shall provide an entire compendium and course on the
+          development of Open-courSes with [LiaScript](https://LiaScript.github.io).
+          As the language and the systems grows, also this document will be updated.
+          Feel free to fork or copy it, translations are very welcome...
+
+script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
+          https://felixhao28.github.io/JSCPP/dist/JSCPP.es5.min.js
+
+link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
+
+link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
+
+import:   https://raw.githubusercontent.com/liaTemplates/ABCjs/main/README.md
+
+link:     https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs
+          https://fonts.googleapis.com/css2?family=Noto+Sans+Ogham
+
+font:     Noto Sans Egyptian Hieroglyphs, Noto Sans Ogham
+-->
+
+# Let's start with Quick Response About AI
+AI is the ability of a digital computer or computerized robot to perform tasks commonly associated with intelligent beings
+
+- [(x)] Yes
+- [( )] No
+
+AI is the develpoment of intelligent systems capable of performing tasks that normally require human intelligence, such as learning, reasoning, problem solving, perception, and language comprehension.
+
+- [(x)] Yes
+- [( )] No
+
+Artificial intelligence refers to the ability of a machine to process, synthesise and deduce information in order to subsequently perform cognitive tasks not at all associated with human intellect.
+
+- [( )] Yes
+- [(X)] No
+
+
+
+# Definition of Artificial Intelligence (AI)
+
+
+
+
+
+Approach to technological functionality:
+Floridi describes AI as “the ability of a digital computer or computerized robot to perform tasks commonly associated with intelligent beings” (Floridi, 2023). 
+Broad application and impact:
+Gutierrez and colleagues describes AI as the development of intelligent systems capable of performing tasks that normally require human intelligence, such as learning, reasoning, problem solving, perception, and language comprehension. This definition captures the broad application of AI in various domains (Gutierrez et al., 2023).
+
+# Definition
+
+           __UNESCO - UNEVOC__
+
+  AI refers to a variety of techniques that vary in complexity and have one common outcome: mimicking human cognition or decision making.
+
+"__All VET organisations__
+ should develop an understanding of the current and future importance of AI and begin to incorporate its use into their planning. Forward thinking and, where possible, preventative action will enable VET institutions and their graduates to thrive in the age of AI and make a positive contribution to economic, social and individual development." (UNESCO-UNEVOC 2021)
+
+
+
+
+![](https://github.com/61087/QR/blob/main/download.png?raw=true)
+
+# Allgemeine Begriffsbestimmung
+Artificial intelligence refers to the ability of a machine to process, synthesise and deduce information in order to subsequently perform cognitive tasks typically associated with human intellect. (AI Accelerator Insitiute 2023)
+
+# Forms and Structures of AI
+
+* Learning
+
+	AI systems improve autonomously through data assimilation and pattern recognition without the need for direct human programming.
+
+* Reasoning and decision making 
+
+	AI uses logical rules and models to draw conclusions and make data-based decisions.
+
+* Problem solving  
+
+	Problem solving in AI is about processing and applying data to solve specific problems.
+
+
+* Perception 
+
+	AI systems use sensory data to identify and analyze objects and their physical relationships.
+
+
+
+# 9 Classes of AI
+
+* Computer vision.
+* Fuzzy logic.
+* Expert systems.
+* Robotics.
+* Machine learning.
+* Neural networks/deep learning.
+* Natural language processing
+
+# Prompt Competence – a Definition
+
+__Describes the ability to__
+
+* Select information in such a way that an AI model can generate a relevant answer
+
+* Provide information to the AI in a clear and targeted manner
+
+* Make changes to the input to maximize the specific properties of the AI model
+
+# Key Input Details
+
+1. clarity in the definition and purpose of the task
+e.g. using simple language and structured work packages: “Start with a short greeting” - “Formulate 3 variants of the closing sentence” 
+
+2. relevant details
+e.g. specific keywords or phrases on the topic, background knowledge, facts, tone, target audience, format, length, style
+
+3. indicative examples
+e.g. “Write in the style of the following text [example]”
+
+4. test and refine 
+e.g. through several iterations
+
+# The Future of Chatbots and AI
+
+* Simulate: From which perspective should the task be understood 
+  (teacher, learner, professional context, etc.)?
+* Task: What is to be done
+* Steps: Sequence of steps, what is to be done and when (incl. 
+  preconditions, intermediate steps with prompts, etc.)
+* Context: Specific focus or consideration (e.g. teaching 
+  environment, class composition, etc.)
+* Goal: What is to be achieved
+* Format: How the answer should be structured or presented
+
+# General Prompt crafting Guidelines
+
+In addition to general guidelines for prompt crafting, the Workflowy community suggests more specific strategies along the types of prompting intentions. Roughly, there are four types of goals of using ChatGPTs: 
+
+* Some learning
+
+* Chatting
+
+* Data transformation 
+
+
+* Text generation
+
+# General Prompt crafting Guidelines
+
+* There are various general guidelines for prompting (see  
+  Workflowy Community)
+
+* For effective use, however, specific strategic priorities are    suggested: Capturing new content, exchanging content, converting content or formats and generating new material.
+
+# Recommendation 1
+
+Assigning a role to the AI
+
+ “You are a statistics tutor.”
+
+ - [(x)] INACCURATE
+- [( )] BETTER
+
+ “You are a friendly, objective and patient tutor for a university lecture on statistics. Your job is to help students with their mechanics homework. Your answers are short and contain concrete suggestions for solving the problem.” University lecture on statistics. Your task is to support students with homework on mechanics. Your answers are short and contain concrete suggestions for solving the problem.”
+
+ - [( )] INACCURATE
+- [(x)]  BETTER
+
+# Recommendation 2
+
+__Prime the AI and set context (provide context)__
+
+ “I need help with a statistical problem.”
+
+ - [(x)] INACCURATE
+- [( )] BETTER
+
+
+It is a lecture on statistics at a university. The students have basic statistical knowledge and the task is very difficult for them. The students should develop an understanding of the solution steps and be able to carry out the solution steps themselves at the end.“”Your task is to support students with homework on mechanics. Your answers are short and contain concrete suggestions for solving the problem.”
+
+- [( )] INACCURATE
+- [(X)] BETTER
+
+# Recommendation 3
+
+    Give specific style instructions
+
+ Write the answers in the style of a university lecturer.
+
+
+- [(x)] INACCURATE
+- [( )] BETTER
+
+
+“Write the answers in formal, scientific language. Note that the users come from the field of bioinformatics. Use the form of address as a courtesy. Format your output using Markdown”.
+
+- [( )] INACCURATE
+- [(X)] BETTER
+
+# Recommendation 4
+
+Limit the length of the AI output
+
+ “Answer in detail and with your own additions.”
+
+ - [(x)] INACCURATE
+- [( )] BETTER
+
+Create a summary of the text in a maximum of 150 words.
+
+- [( )] INACCURATE
+- [(X)] BETTER
+
+# Recommendation 5 
+
+Give precise descriptions of the AI procedure and the result
+
+ ‘Write an abstract about Smart Industry.’
+
+ - [(x)] INACCURATE
+- [( )] BETTER
+
+
+‘Write a 200-word abstract for a bachelor-level academic paper at a German university on the topic of smart industry with a focus on supply chain management.’
+
+- [( )] INACCURATE
+- [(X)] BETTER
+
+
+# Recommendation 6
+
+Use markers for structuring and inform the AI about them
+
+
+
+IntroductionThis text is about generating good prompts. It is particularly important here that humans understand essential prompting rules and learn the limitations of prompting.
+
+- [(x)] INACCURATE
+- [( )] BETTER
+
+
+ IntroductionThis text is about generating **good** prompts. 
+Two aspects are particularly important here:
+
+1) people should understand essential _prompting rules_.
+
+2) people should get to know the _limits of prompting_. “
+ 
+
+- [( )] INACCURATE
+- [(X)] BETTER
+
+# Recommendation 7
+
+Avoid ambiguous filler words and adjectives
+
+ “Write a not too long product description for a smartphone case in a rather humorous tone with few foreign words.”
+
+- [(x)] INACCURATE
+- [( )] BETTER
+
+ “Write a product description for a smartphone case in 5 sentences for adults aged 18 - 25 with a maximum of two foreign words.”
+
+- [( )] INACCURATE
+- [(X)] BETTER
+
+# Recommendation 8A
+
+Segment an assignment and create sequences of prompts from it
+Example prompt:This prompt is formatted with Markdown syntax to make it easier for you, the AI system, to outline.
+
+* Your role
+
+You are a friendly and helpful university didactician at a German university of applied sciences who gives me effective, specific and concrete feedback on a new teaching format I have developed. You have high expectations and believe that I can achieve them. 
+
+
+*  Your task as a university didacticianYou should
+
+1. Give feedback in a direct and clear way,
+2. Ask me questions that encourage me to explain the feedback in my own words,
+3. Ask me to describe how I might respond.
+* Instructions for your answers
+
+Language, level and subject context
+Write your answers in German and at university level.
+
+Note that my field of specialization is the humanities.
+
+Use my first name. Format your output using Markdown for headings and highlighting
+
+# Recommendation 8B
+
+*  Further guidelines
+Keep your answers short and avoid further details or references.
+
+*  Your procedure for starting the chat
+
+First ask me for the title and a brief description of the teaching format you are to advise me on. Do not answer for me. Your role is only that of an advisory university didactician. Only continue the conversation when I answer.
+
+* Your  procedure for the iterative design of the feedback__
+
+1. Ask for dfurtheretails such as the aim of the teaching format, the learning objectives, the instructions to the students, the amount of time or the necessary preparatory work.
+2. Wait for my answer. Do not continue until I answer.
+3. Then ask me to describe the teaching format to you in detail and in a structured way. Wait for the student's response. Once you have the answer, ask me questions about points that are not described in enough detail in my answer. Ask me if I want to answer any more questions about the teaching format.
+4. If I don't want any more questions, write an evaluation of the learning format based on what you know and give me feedback. Do not improve the learning format yourself; just give feedback. 
+End your feedback by asking me how I would like to respond to your feedback. Do not give me suggestions. 
+
+  
+
+
+# Recommendation 9
+
+Using complex prompting strategies
+Strategy 1: Mega-Prompting
+The mega-prompt developed by Rob Lennon consists of six sections designed to comprehensively prepare the AI system for its task while facilitating an iterative communication process with the user to improve the outcome. These six sections are:
+
+* Role - Who or what should the AI system simulate?
+
+* Task / activity - What is to be done?
+
+* Work steps - which sub-steps are to be done in which order?
+
+* Context / constraints / restrictions - what needs to be taken into account?
+
+* Goal - what specific goal should the dialog achieve?
+
+* Format of the output - what should the bot's feedback look like?
+
+* Prompt creator (see ChatGPT)
+
+# Phase 1:  write a prompt(20 Min.)
+
+
+* __Work assignment:__ 
+
+Write a prompt on a predefined topic area.  
+In this assignment, we create our first prompts by considering the recommendations for good prompting and trying them out. 
+Work on a more informal, less complex aspect of a course. The main aim is to gain initial experience, combine as many recommendations as possible and experience how a simple task can be turned into a comprehensive prompt. Please note that the AI's final answer at the end of your prompt development should be designed in such a way that it requires as little additional __“manual work”__ from you as possible.
+
+# Select a task from the list and solve it with your own prompt
+
+__Scenario 1:__
+
+ Have the AI create a 14-week semester schedule that includes the titles of the sessions for a seminar on “Scientific Integrity” or another course of your choice and a brief description of the content of each session.
+
+__Scenario 2:__ 
+
+Have the AI create a schedule for a 90-minute seminar session on “Scientific Inquiry” or another topic of your choice that includes at least one activating work format, such as group work.
+
+__Scenario 3:__
+
+ Have the AI write a learning room message that informs about important aspects of the final exam for a course of your choice and that is formulated in English.
+
+__Scenario 4__
+
+ Have the AI formulate learning objectives for the competence area “Correct citation” or another competence area of your choice that address different levels of learning objectives, e.g. “Remember - Understand - Apply - Analyze - Evaluate - Create”.
+
+__Scenario 5:__ 
+
+Have the AI create an outline for a “How To” document that explains how to use ChatGPT to students.
+
+__Scenario 6:__ 
+
+Have the AI write a welcome text that is displayed as the first text field in an online learning space and gives students a first orientation about the learning space.
+
+__Scenario 7__: 
+
+Let the AI suggest a structure for an online learning space for the course “Good scientific practice” or another course of your choice.
+
+
+# Assignment: Present your findings
+
+__Discuss your findings and challenges. Improve your prompt.__
+
+
+1. Get to know the prompts of the other participants in your group and understand their perspectives on creating them. 
+2. Use the group phase to improve your own prompts, reflect on hurdles encountered and explore alternative solutions. 
+3. Test your improved prompts in the selected AI system and compare the output of the AI with the result from work phase 1.
+
+# Questions who help the discussion
+
+__Use the following suggested questions to guide your discussion and reflection__
+
+What is important to me?
+
+Does the result meet my expectations?
+
+What adjustments will improve the result?
+
+Is the result useful for achieving my goal?
+
+What errors could the result contain?
+
+What are the advantages and disadvantages of this strategy?
+
+What experiences have you had?
+
+What ethical issues might be involved?
+
+# End
+
+       
+       <span style="font-size: 40px;">Thank you.</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
